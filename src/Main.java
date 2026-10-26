@@ -8,6 +8,10 @@ void main() {
     System.out.println("Podaj wiek");
     int age = scanner.nextInt();
     System.out.println("Witaj " + name + ". Za " + (18-age) + " lata będziesz miał 18 lat!");
+    System.out.println("Pierwsza rzecz którą chcesz zrobić po uzyskaniu pełnoletności: ");
+    String rzecz = scanner.nextLine();
+    System.out.println(rzecz);
+
 
 }
 
